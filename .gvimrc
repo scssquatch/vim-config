@@ -26,12 +26,6 @@ if has('win32')
   autocmd GUIEnter * set visualbell t_vb=
 endif
 
-" Command-T for ControlP -- just fyi I don't like this :)
-if has('gui_macvim')
-  macmenu &File.New\ Tab key=<D-T>
-  map <D-t> :CtrlP<CR>
-  imap <D-t> <Esc>:CtrlP<CR>
-end
 
 " set default font
 " https://github.com/Lokaltog/powerline-fonts
