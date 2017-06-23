@@ -10,6 +10,7 @@ let mapleader = ','
 
 " Plugins requiring no additional configuration or keymaps
   NeoBundle 'pangloss/vim-javascript'
+  NeoBundle 'mxw/vim-jsx'
   NeoBundle 'tomtom/tcomment_vim'
   NeoBundle 'tpope/vim-endwise'
   NeoBundle 'tpope/vim-fugitive'
@@ -199,10 +200,6 @@ let mapleader = ','
     let g:surround_45 = '<% \r %>'
     " = to surround with output erb tag
     let g:surround_61 = '<%= \r %>'
-
-" Scala Highlighting
-  NeoBundle 'derekwyatt/vim-scala'
-  autocmd BufNewFile,BufRead *.scala set filetype=scala
 
 " Easy async RSpec running
   NeoBundle 'thoughtbot/vim-rspec'
